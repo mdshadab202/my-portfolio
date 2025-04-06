@@ -1,0 +1,13 @@
+prefix=S:/personal portfolio/venv/Library
+exec_prefix=S:/personal portfolio/venv/Library
+libdir=S:/personal portfolio/venv/Library/lib
+sharedlibdir=S:/personal portfolio/venv/Library/lib
+includedir=S:/personal portfolio/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
