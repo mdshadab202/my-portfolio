@@ -4,25 +4,34 @@ import csv
 import os
 
 app = Flask(__name__)
+
 app.secret_key = 'your_secret_key'
 
 # Dummy data
 projects = [
     {'title': 'Insurance Prediction', 
      'description': 'I built a machine learning model using Scikit-learn to predict insurance premiums based on factors like age, BMI, and smoking habits. I included EDA, feature engineering,and hyperparameter tuning in my workflow..',
-     'link': 'https://github.com/shadabali-ts/insurance-premium-predictor',
+     'link': 'https://github.com/mdshadab202/insurance-premium-predictor',
      'Progress' : 100 },
     
      {'title': 'Titanic survival prediction ',
       'description': 'A machine learning model built on the Titanic dataset to predict survival outcomes using logistic regression, decision trees, and feature engineering techniques..',
-      'link': 'https://github.com/shadabali-ts/titanic-ml-predictor',
+      'link': 'https://www.kaggle.com/code/shadab91/fork-of-titanic',
       'Progress' : 100},
      
+    
+    {'title': 'resume macher',
+     'description': 'A smart resume matcher that evaluates resumes against job descriptions using NLP',
+     'link': 'https://github.com/mdshadab202/resume-matcher',
+     'Progress' : 100
+     },
     {'title': 'Jira AI Anomaly Detection',
      'description': 'LLM + clustering for doc irregularity detection.',
-     'link': 'https://github.com/shadabali-ts/jira-ai-anomaly-detection',
+     'link': 'https://github.com/mdshadaba202/kb-model',
      'Progress' : 40
-     }
+    }
+    
+    
 ]
 
 blogs = [

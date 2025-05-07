@@ -1,0 +1,3 @@
+
+# Create Procfile conten
+web: gunicorn app:app
